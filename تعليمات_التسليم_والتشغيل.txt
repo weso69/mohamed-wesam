@@ -1,0 +1,20 @@
+ARES FIRST COLONY - دليل التشغيل والتسليم
+
+1) اللعب بدون إنترنت
+حمّل الملف المضغوط بالكامل وفك الضغط عنه.
+افتح index.html باستخدام Google Chrome أو Microsoft Edge.
+يمكنك الضغط على START_GAME_OFFLINE_WINDOWS.bat على ويندوز.
+لا تحتاج إلى إنترنت أثناء اللعب بعد تنزيل الملفات كاملة.
+
+2) رابط مباشر يفتح اللعبة
+أنشئ مستودع GitHub عام وارفع كل الملفات الموجودة داخل المجلد (بما فيها index.html ومجلد assets).
+من Settings ثم Pages اختر Deploy from a branch وحدد main و /(root) ثم Save.
+بعد النشر انسخ رابط GitHub Pages، ويكون مثل:
+https://USERNAME.github.io/REPOSITORY/
+هذا الرابط يفتح اللعبة مباشرة لكنه يحتاج إلى إنترنت لأول مرة.
+
+3) Google Drive
+ارفع ملف ZIP على Google Drive واختر Share > Anyone with the link > Viewer.
+هذا رابط تحميل، وليس رابط تشغيل مباشر داخل Google Drive.
+
+تنبيه: لم يتم إنشاء رابط GitHub Pages حي أو Google Drive حي من داخل هذه الحزمة.

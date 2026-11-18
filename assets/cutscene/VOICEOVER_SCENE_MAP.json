@@ -1,0 +1,101 @@
+{
+  "version": "continuity-corrected-v10-2026-11-14",
+  "duration_s": 59.89875,
+  "size": "1920x1080",
+  "fps": 24,
+  "subtitle_track": "one burned-in subtitle line only",
+  "scenes": [
+    {
+      "id": "earth-lost",
+      "start": 0,
+      "end": 4.0,
+      "src": "/mnt/data/work_scene_fix/ARES_First_Colony_Edition_9_Crew_Profiles/public/assets/cutscene/original-01.jpg",
+      "reason": "Earth ruins are burning while narrator remembers Earth."
+    },
+    {
+      "id": "cities-dark",
+      "start": 4.0,
+      "end": 6.9,
+      "src": "/mnt/data/a_cinematic_high_detail_sci_fi_post_apocalyptic.png",
+      "reason": "Smoke and dark evacuated cities; no uncanny faces."
+    },
+    {
+      "id": "board-launch",
+      "start": 6.9,
+      "end": 11.2,
+      "src": "public/assets/cutscene/v10-six-astronauts-board.jpg",
+      "reason": "Exactly six helmeted astronauts board the ARES ship while all civilians remain behind at the launchpad; natural, unobstructed faces."
+    },
+    {
+      "id": "earth-farewell",
+      "start": 11.2,
+      "end": 16.5,
+      "src": "/mnt/data/a_cinematic_highly_detailed_sci_fi_scene_viewed_f.png",
+      "reason": "Rainy Earth farewell and people left behind, not Mars."
+    },
+    {
+      "id": "departure",
+      "start": 16.5,
+      "end": 20.7,
+      "src": "/mnt/data/work_scene_fix/ARES_First_Colony_Edition_9_Crew_Profiles/public/assets/cutscene/original-03.jpg",
+      "reason": "Spaceship pulls away from home."
+    },
+    {
+      "id": "space-silence",
+      "start": 20.7,
+      "end": 24.6,
+      "src": "public/assets/cutscene/v10-silent-crew-bridge.jpg",
+      "reason": "A quiet cabin with six crew seen from behind watching Earth recede; no exterior rocket repeated and no uncanny faces."
+    },
+    {
+      "id": "reactor-failure",
+      "start": 24.6,
+      "end": 29.1,
+      "src": "/mnt/data/work_scene_fix/ARES_First_Colony_Edition_9_Crew_Profiles/public/assets/cutscene/original-04.jpg",
+      "reason": "External hull malfunction and bright damaged engine; no uncanny cockpit people."
+    },
+    {
+      "id": "no-return",
+      "start": 29.1,
+      "end": 33.4,
+      "src": "public/assets/cutscene/v10-return-fuel-communications.jpg",
+      "reason": "The onboard display shows return propellant depleted and Earth communication lost; no repeated rocket illustration."
+    },
+    {
+      "id": "jezero-map",
+      "start": 33.4,
+      "end": 38.2,
+      "src": "/mnt/data/work_scene_fix/ARES_First_Colony_Edition_9_Crew_Profiles/public/assets/cutscene/original-05.jpg",
+      "reason": "Jezero delta mapped visually in cockpit."
+    },
+    {
+      "id": "descent",
+      "start": 38.2,
+      "end": 44.5,
+      "src": "/mnt/data/work_scene_fix/ARES_First_Colony_Edition_9_Crew_Profiles/public/assets/cutscene/extra-05-mars-descent.jpg",
+      "reason": "Damaged spacecraft entering Mars; no unhelmeted astronauts."
+    },
+    {
+      "id": "surface",
+      "start": 44.5,
+      "end": 51.0,
+      "src": "/mnt/data/work_scene_fix/ARES_First_Colony_Edition_9_Crew_Profiles/public/assets/cutscene/extra-06-first-footsteps.jpg",
+      "reason": "Survivors on Mars all in closed helmets."
+    },
+    {
+      "id": "last-signal",
+      "start": 51.0,
+      "end": 54.5,
+      "src": "/mnt/data/work_scene_fix/ARES_First_Colony_Edition_9_Crew_Profiles/public/assets/cutscene/extra-06-first-footsteps.jpg",
+      "reason": "Alone on Mars, no rescue ship or unhelmeted actors."
+    },
+    {
+      "id": "new-dawn",
+      "start": 54.5,
+      "end": 59.89875,
+      "src": "public/assets/cutscene/v10-empty-mars-first-dawn.jpg",
+      "reason": "An untouched Martian sunrise at the first landing. Only helmeted astronauts and natural terrain, with no colony or prebuilt base."
+    }
+  ],
+  "preserves_audio": "original 59.89875s voice over and one small original burned-in subtitle in the lower black bar"
+}
