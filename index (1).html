@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ARES: FIRST COLONY | NASA Space Apps 2026</title>
+  <meta name="description" content="ARES First Colony: an interactive Mars mission survival game.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23101927'/%3E%3Ctext x='32' y='45' font-size='44' text-anchor='middle' fill='%23ff8050' font-family='Arial'%3EA%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css?v=20261118-react17">
+  <style>body{margin:0} .startup-error{max-width:700px;margin:12vh auto;padding:28px;color:#eee;background:#192131;border:1px solid #f88;border-radius:14px;font:17px/1.6 Arial,sans-serif;} .startup-error b{color:#ff9879}</style>
+</head>
+<body>
+  <div id="root"></div>
+  <!-- React 16.0.0 shipped with the previous bundle does not support Hooks; use React 17.0.2 instead. -->
+  <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
+  <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
+  <script>
+    (function(){
+      function fail(message){
+        document.getElementById('root').innerHTML='<div class="startup-error"><b>ARES FIRST COLONY could not start.</b><p>'+message+'</p></div>';
+      }
+      if (!window.React || typeof window.React.useState !== 'function' || !window.ReactDOM || typeof window.ReactDOM.render !== 'function'){
+        fail('The React game engine could not load. Please confirm you are online, disable script-blocking extensions, and refresh.');
+        return;
+      }
+      var script=document.createElement('script');
+      script.src='./game.js?v=20261118-react17-fix';
+      script.onerror=function(){fail('The game.js file is missing or could not be downloaded from this website.');};
+      document.body.appendChild(script);
+    })();
+  </script>
+</body>
+</html>
